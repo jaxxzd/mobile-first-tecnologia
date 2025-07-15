@@ -231,6 +231,10 @@ Tela @media somente e (largura mínima: 1200px)
     #close-aside {
         height: 60px;
     }
+
+    #container-indicators {
+        display: none;
+    }
 }
 
 @media (min-width: 1024px) {

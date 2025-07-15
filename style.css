@@ -223,5 +223,9 @@ header {
     display: block;
 }
 
+#container-indicators {
+    display: none;
+}
+
 
 
