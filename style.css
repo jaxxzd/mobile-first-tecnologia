@@ -23,6 +23,7 @@ header {
     position: fixed;
     background-color: #0f0f13;
     z-index: 999;
+    border-bottom: 1px solid rgb(65, 65, 65);
 }
 
 #nav-menu {
@@ -30,6 +31,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#link-title-logo {
+    text-decoration: none;
 }
 
 #title-logo {
@@ -82,8 +87,8 @@ header {
 }
 
 .container-products-apple img {
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
     padding: 1rem;
     box-shadow: 5px 5px 5px 5px #00f7ff;
     border-radius: 100%;
@@ -95,7 +100,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .new-attention-apple {
@@ -107,11 +112,19 @@ header {
     text-transform: uppercase;
 }
 
-.container-description-apple h2 {
+.name-product-apple {
     font-family: "Orbitron", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 1.1;
     color: #FFFFFF;
     text-align: center;
+}
+
+.price-products-apple {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #FFFFFF;
 }
 
 .description-apple {
@@ -225,6 +238,31 @@ header {
 
 #container-indicators {
     display: none;
+}
+
+#footer-apple {
+    width: 100%;
+    height: 15vh;
+    background-color: #0f0f13;
+    border-top: 1px solid rgb(65, 65, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#footer-apple h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#footer-apple p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: .875em;
+    color: #FFFFFF;
 }
 
 

@@ -25,6 +25,7 @@ Tela @media somente e (largura mínima: 1200px)
         position: fixed;
         background-color: #0f0f13;
         z-index: 999;
+        border-bottom: 1px solid rgb(65, 65, 65);
     }
 
     #nav-menu {
@@ -32,6 +33,10 @@ Tela @media somente e (largura mínima: 1200px)
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #link-title-logo {
+        text-decoration: none;
     }
 
     #title-logo {
@@ -84,8 +89,8 @@ Tela @media somente e (largura mínima: 1200px)
     }
 
     .container-products-apple img {
-        width: 20rem;
-        height: 20rem;
+        width: 15rem;
+        height: 15rem;
         padding: 1rem;
         object-fit: contain;
         box-shadow: 10px 10px 10px 10px #00f7ff;
@@ -110,12 +115,19 @@ Tela @media somente e (largura mínima: 1200px)
         text-transform: uppercase;
     }
 
-    .container-description-apple h2 {
+    .name-product-apple {
         font-family: "Orbitron", sans-serif;
-        font-size: 3em;
+        font-size: 2em;
         line-height: 1.1;
         color: #FFFFFF;
         text-align: center;
+    }
+
+    .price-products-apple {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 2em;
+        color: #FFFFFF;
     }
 
     .description-apple {
@@ -235,7 +247,33 @@ Tela @media somente e (largura mínima: 1200px)
     #container-indicators {
         display: none;
     }
+
+    #footer-apple {
+        width: 100%;
+        height: 15vh;
+        background-color: #0f0f13;
+        border-top: 1px solid rgb(65, 65, 65);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #footer-apple h2 {
+        font-family: "Orbitron", sans-serif;
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+
+    #footer-apple p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        color: #FFFFFF;
+    }
 }
+
 
 @media (min-width: 1024px) {
     header {
@@ -244,6 +282,7 @@ Tela @media somente e (largura mínima: 1200px)
         position: fixed;
         background-color: #0f0f13;
         z-index: 999;
+        border-bottom: 1px solid rgb(65, 65, 65);
     }
 
     #nav-menu {
@@ -257,6 +296,10 @@ Tela @media somente e (largura mínima: 1200px)
         width: 50px;
         height: 50px;
         object-fit: contain;
+    }
+
+    #link-title-logo {
+        text-decoration: none;
     }
 
     #title-logo {
@@ -318,7 +361,7 @@ Tela @media somente e (largura mínima: 1200px)
 
     .container-products-apple {
         width: 100%;
-        height: 100vh;
+        height: 110vh;
         padding: 1rem;
         display: flex;
         flex-direction: row;
@@ -341,7 +384,7 @@ Tela @media somente e (largura mínima: 1200px)
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        gap: 24px;
+        gap: 16px;
     }
 
     .new-attention-apple {
@@ -355,19 +398,26 @@ Tela @media somente e (largura mínima: 1200px)
         width: 100%;
     }
 
-    .container-description-apple h2 {
+    .name-product-apple {
         font-family: "Orbitron", sans-serif;
-        font-size: 4.5em;
+        font-size: 3em;
         line-height: 1.1;
         color: #FFFFFF;
         text-align: start;
         width: 100%;
     }
 
+    .price-products-apple {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 2em;
+        color: #FFFFFF;
+    }
+
     .description-apple {
         font-family: "Poppins", sans-serif;
         font-weight: 500;
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: start;
         width: 100%;
     }
@@ -444,5 +494,30 @@ Tela @media somente e (largura mínima: 1200px)
 
     .indicator {
         width: 40px;
+    }
+
+    #footer-apple {
+        width: 100%;
+        height: 15vh;
+        background-color: #0f0f13;
+        border-top: 1px solid rgb(65, 65, 65);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #footer-apple h2 {
+        font-family: "Orbitron", sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    #footer-apple p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: .875em;
+        color: #FFFFFF;
     }
 }
