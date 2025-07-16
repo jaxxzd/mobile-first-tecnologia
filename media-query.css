@@ -121,6 +121,7 @@ Tela @media somente e (largura mínima: 1200px)
         line-height: 1.1;
         color: #FFFFFF;
         text-align: center;
+        font-weight: 500;
     }
 
     .price-products-apple {
@@ -405,6 +406,7 @@ Tela @media somente e (largura mínima: 1200px)
         color: #FFFFFF;
         text-align: start;
         width: 100%;
+        font-weight: 500;
     }
 
     .price-products-apple {
