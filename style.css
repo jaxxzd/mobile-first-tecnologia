@@ -196,7 +196,7 @@ header {
 
 #menu-apple {
     width: 100%;
-    height: 40vh;
+    height: 15.625rem;
     background-color: #0f0f13;
     display: flex;
     flex-direction: column;
@@ -218,8 +218,9 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 32px;
 }
 
 #content-menu-apple p {

@@ -83,9 +83,10 @@ Tela @media somente e (largura mínima: 1200px)
         height: 100vh;
         padding: 1rem;
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
     }
 
     .container-products-apple img {
@@ -121,7 +122,6 @@ Tela @media somente e (largura mínima: 1200px)
         line-height: 1.1;
         color: #FFFFFF;
         text-align: center;
-        font-weight: 500;
     }
 
     .price-products-apple {
@@ -300,8 +300,8 @@ Tela @media somente e (largura mínima: 1200px)
     }
 
     #link-title-logo {
-        text-decoration: none;
-    }
+    text-decoration: none;
+}
 
     #title-logo {
         font-family: "Orbitron", sans-serif;
@@ -366,8 +366,9 @@ Tela @media somente e (largura mínima: 1200px)
         padding: 1rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
+        gap: 128px;
     }
 
     .container-products-apple img {
@@ -380,7 +381,7 @@ Tela @media somente e (largura mínima: 1200px)
     }
 
     .container-description-apple {
-        width: 50%;
+        width: 25rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -406,7 +407,6 @@ Tela @media somente e (largura mínima: 1200px)
         color: #FFFFFF;
         text-align: start;
         width: 100%;
-        font-weight: 500;
     }
 
     .price-products-apple {
@@ -421,7 +421,7 @@ Tela @media somente e (largura mínima: 1200px)
         font-weight: 500;
         font-size: 1em;
         text-align: start;
-        width: 60%;
+        width: 100%;
     }
 
     .btn {
