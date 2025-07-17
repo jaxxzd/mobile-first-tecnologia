@@ -76,6 +76,15 @@ header {
     align-items: center;
 }
 
+@media (min-width: 344px) {
+    #section-apple {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .container-products-apple {
     width: 80%;
     height: 100vh;
@@ -87,9 +96,35 @@ header {
     gap: 32px;
 }
 
+@media (max-width: 344px) {
+    .container-products-apple {
+        width: 80%;
+        height: 41.6875rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        gap: 32px;
+    }
+}
+
+@media (min-width: 390px) {
+    .container-products-apple {
+        width: 80%;
+        height: 41.6875rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        gap: 32px;
+    }
+}
+
 .container-products-apple img {
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
     box-shadow: 5px 5px 5px 5px #00f7ff;
     border-radius: 100%;
@@ -138,46 +173,46 @@ header {
 }
 
 .btn {
-        position: relative;
-        cursor: pointer;
-        padding: 12px 24px;
-        border: none;
-        outline: none;
-        border: 2px solid #00f7ff;
-        background-color: transparent;
-        font-weight: 900;
-        font-size: .75em;
-        color: #FFFFFF;
-        transition: all .3s ease-in-out;
-        box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
-        overflow: hidden;
-        text-transform: uppercase;
-    }
+    position: relative;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    border: 2px solid #00f7ff;
+    background-color: transparent;
+    font-weight: 900;
+    font-size: .75em;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    text-transform: uppercase;
+}
 
-    .btn:hover {
-        color: #000;
-    }
+.btn:hover {
+    color: #000;
+}
 
-    .btn:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #FFFFFF;
-        z-index: -1;
-        transition: transform 0.5s;
-        transform-origin: top left;
-    }
+.btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: top left;
+}
 
-    .btn-default-apple::before {
-        transform: scaleX(0);
-    }
+.btn-default-apple::before {
+    transform: scaleX(0);
+}
 
-    .btn-default-apple:hover::before {
-        transform: scaleX(1);
-    }
+.btn-default-apple:hover::before {
+    transform: scaleX(1);
+}
 
 /* ASIDE APPLE STORE */
 
@@ -267,6 +302,3 @@ header {
     font-size: .875em;
     color: #FFFFFF;
 }
-
-
-
